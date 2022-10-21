@@ -1,0 +1,50 @@
+:root {
+    --main-color: #3F806A;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+
+body {
+    background-color: #F3EAE3;
+    font-family: 'EB Garamond', serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+
+}
+
+/* IMG */
+.product-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* DESCRIPTION */
+.product-desc-wrapper {
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: -4px;
+}
+
+.preview {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+.title {
+    font-weight: bold;
+}

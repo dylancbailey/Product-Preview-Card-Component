@@ -131,7 +131,7 @@ body {
     padding-bottom: 2rem;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERY */
 @media screen and (min-width: 1440px) {
     .wrapper {
         display: flex;

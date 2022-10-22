@@ -56,7 +56,7 @@ body {
 /* DESCRIPTION */
 .product-desc-wrapper {
     background-color: white;
-    padding: 1.9rem;
+    padding: 2rem;
     margin-top: -4px;
     border-radius: 0 0 10px 10px;
 }
@@ -78,7 +78,7 @@ body {
 .desc {
     margin-bottom: .8rem;
     line-height: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* PRICES */

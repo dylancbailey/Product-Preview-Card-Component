@@ -1,6 +1,7 @@
 :root {
     --main-color: hsl(158, 36%, 37%);
     --secondary-color: hsl(228, 12%, 48%);
+    --main-color-dark: #1A4031;
 }
 
 *,
@@ -72,11 +73,12 @@ body {
     font-weight: bold;
     font-size: 2.3rem;
     line-height: 1.8rem;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
+    line-height: 2.3rem;
 }
 
 .desc {
-    margin-bottom: .8rem;
+    margin-bottom: 1.5rem;
     line-height: 1.5rem;
     font-size: 1rem;
 }
@@ -85,17 +87,18 @@ body {
 .prices {
     display: flex;
     align-items: center;
-    margin-bottom: .8rem;
+    margin-bottom: 1.2rem;
 }
 
 .display-price-reduced {
     font-size: 2rem;
     font-weight: bold;
     color: var(--main-color);
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .diplay-price-original {
+    font-size: .9rem;
     text-decoration-line: line-through;
 }
 
@@ -106,8 +109,14 @@ body {
     border-radius: 5px;
     border: none;
 }
+.btn:hover {
+    cursor: pointer;
+    background: var(--main-color-dark);
+}
 
 .icon {
+    position: relative;
+    left: -5px;
     stroke: white;
     width: 4%;
     transform: scaleX(-1);

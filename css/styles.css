@@ -17,7 +17,7 @@
     font-family: 'Fraunces', serif;
 }
 p,
-.btn-wrapper {
+.btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -28,10 +28,10 @@ h1 {
 p {
     color: var(--secondary-color);
 }
-.btn-wrapper {
-    text-decoration: none;
+.btn {
     color: white;
     font-weight: 700;
+    font-size: .9rem;
 }
 
 body {
@@ -126,10 +126,6 @@ body {
     stroke: white;
     width: 4%;
     transform: scaleX(-1);
-}
-
-.btn-wrapper {
-    padding-bottom: 2rem;
 }
 
 /* MEDIA QUERY */

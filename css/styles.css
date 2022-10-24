@@ -17,7 +17,7 @@
     font-family: 'Fraunces', serif;
 }
 p,
-.btn-text {
+.btn-wrapper {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -28,7 +28,7 @@ h1 {
 p {
     color: var(--secondary-color);
 }
-.btn-text {
+.btn-wrapper {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -113,6 +113,7 @@ body {
     background-color: var(--main-color);
     border-radius: 5px;
     border: none;
+    color: white;
 }
 .btn:hover {
     cursor: pointer;
@@ -127,7 +128,7 @@ body {
     transform: scaleX(-1);
 }
 
-.btn-text {
+.btn-wrapper {
     padding-bottom: 2rem;
 }
 
